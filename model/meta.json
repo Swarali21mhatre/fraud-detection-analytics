@@ -1,0 +1,33 @@
+{
+  "auc": 0.9626,
+  "precision": 0.7927,
+  "recall": 0.65,
+  "f1": 0.7143,
+  "confusion_matrix": [
+    [
+      1883,
+      17
+    ],
+    [
+      35,
+      65
+    ]
+  ],
+  "feature_cols": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "balance_before",
+    "amount_log",
+    "is_high_amount",
+    "is_odd_hour",
+    "transaction_type_enc",
+    "payment_method_enc",
+    "location_enc",
+    "merchant_category_enc"
+  ],
+  "n_train": 8000,
+  "n_test": 2000,
+  "fraud_rate_train": 0.05
+}
